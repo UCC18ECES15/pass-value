@@ -10,7 +10,7 @@
 	uint8_t KEY_WRAPPING_EN;
  int main()
 {
-
+int j,i;
 int arr[7];
  	const char objects[7][50]={"KEY_EXPORT_EN","KEY_SIZE","KEY_NOT_SECRET","KEY_DERIVATION_EN","KEY_ENCRYPTION_EN","KEY_DECRYPTION_EN","KEY_WRAPPING_EN"};
  		for(j=0;j<7;j++)
