@@ -1,13 +1,6 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdint.h>
-  uint8_t KEY_EXPORT_EN;
-	uint8_t KEY_SIZE;
-	uint8_t KEY_NOT_SECRET;
-	uint8_t KEY_DERIVATION_EN;
-	uint8_t KEY_ENCRYPTION_EN;
-	uint8_t KEY_DECRYPTION_EN;
-	uint8_t KEY_WRAPPING_EN;
  int main()
 {
 int j,i;
