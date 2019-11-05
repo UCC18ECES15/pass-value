@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdint.h>
+  uint8_t KEY_EXPORT_EN;
+	uint8_t KEY_SIZE;
+	uint8_t KEY_NOT_SECRET;
+	uint8_t KEY_DERIVATION_EN;
+	uint8_t KEY_ENCRYPTION_EN;
+	uint8_t KEY_DECRYPTION_EN;
+	uint8_t KEY_WRAPPING_EN;
+ int main()
+{
+
+int arr[7];
+ 	const char objects[7][50]={"KEY_EXPORT_EN","KEY_SIZE","KEY_NOT_SECRET","KEY_DERIVATION_EN","KEY_ENCRYPTION_EN","KEY_DECRYPTION_EN","KEY_WRAPPING_EN"};
+ 		for(j=0;j<7;j++)
+	{
+	   printf(" %s\n",objects[j]);
+	   scanf("%d",&arr[i]);
+}
+	for (i=0;i<7;++i)
+ 	{
+ 	printf("%d ",arr[i]);
+ }
+	return 0;
+}
